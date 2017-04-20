@@ -1,23 +1,23 @@
 body {
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+    color: #000;
     font-weight: normal;
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .promo-title {
     font-size: 35px;
     line-height: 41px;
-    color: #000000;
+    color: #000;
     font-weight: bold;
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .page-title {
     font-size: 35px;
     line-height: 41px;
-    color: #000000;
+    color: #000;
     font-weight: bold;
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial", sans-serif;
 }
