@@ -45,7 +45,7 @@ html
     background:    -moz-linear-gradient(top, #f26843 0%, #e74a35 100%);
     background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
     background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
-    box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+    box-shadow: 0 2px 2px rgba(172, 16, 0, .64);
 }
 
 .btn:hover
@@ -216,7 +216,7 @@ body > input[type='radio']
 
     content: '';
 
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, .2);
 }
 
 .nav-list__item:hover
@@ -248,6 +248,10 @@ body > input[type='radio']
     background-color: #d07058;
 }
 
+.active .nav-list__link::after {
+  display: none;
+}
+
 .active:hover
 {
     background-color: #d07058;
@@ -276,7 +280,7 @@ body > input[type='radio']
     color: #323232;
     border-radius: 5px;
     background-color: #f8f7f4;
-    box-shadow: 0 20px 20px .00px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 20px .00px rgba(0, 0, 0, .4);
 }
 
 .submenu__item
@@ -390,7 +394,7 @@ body > input[type='radio']
     height: 32px;
 
     border-radius: 17px;
-    background: rgba(255, 255, 255, 0.2) url('../img/icon-lens.png') no-repeat center;
+    background: rgba(255, 255, 255, .2) url('../img/icon-lens.png') no-repeat center;
 }
 
 .search__link:hover
@@ -414,7 +418,7 @@ body > input[type='radio']
 
     border-radius: 5px;
     background-color: #f8f7f4;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .4);
 }
 
 .search-form__field
@@ -422,7 +426,7 @@ body > input[type='radio']
     width: 100%;
     padding: 14px 15px;
 
-    border: 1px solid rgba(178, 178, 178, 0.52);
+    border: 1px solid rgba(178, 178, 178, .52);
     border-radius: 5px;
     outline: none;
     background-color: #fff;
@@ -430,12 +434,12 @@ body > input[type='radio']
 
 .search-form__field:hover
 {
-    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, .52);
 }
 
 .search-form__field:focus
 {
-    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, .52);
 }
 
 .login:hover .login-form
@@ -457,7 +461,7 @@ body > input[type='radio']
 
     color: #fff;
     border-radius: 50px;
-    background: rgba(255, 255, 255, 0.2) url('../img/icon-login.png') no-repeat 15px 6px;
+    background: rgba(255, 255, 255, .2) url('../img/icon-login.png') no-repeat 15px 6px;
 }
 
 .login__link:hover
@@ -489,7 +493,7 @@ body > input[type='radio']
 
     border-radius: 5px;
     background-color: #f8f7f4;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .4);
 }
 
 .login-form__email,
@@ -499,7 +503,7 @@ body > input[type='radio']
     margin-bottom: 20px;
     padding: 13px 15px 14px 12px;
 
-    border: 1px solid rgba(178, 178, 178, 0.52);
+    border: 1px solid rgba(178, 178, 178, .52);
     border-radius: 5px;
     outline: none;
     background-color: #fff;
@@ -508,13 +512,13 @@ body > input[type='radio']
 .login-form__email:hover,
 .login-form__password:hover
 {
-    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, .52);
 }
 
 .login-form__email:focus,
 .login-form__password:focus
 {
-    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, .52);
 }
 
 .login-form .btn
@@ -573,7 +577,7 @@ body > input[type='radio']
 
     content: '';
 
-    background: rgba(50, 50, 50, 0.3);
+    background: rgba(50, 50, 50, .3);
 }
 
 .cart__link
@@ -593,7 +597,7 @@ body > input[type='radio']
 
     color: #fff;
     border-radius: 50px;
-    background: rgba(255, 255, 255, 0.2) url('../img/icon-cart.png') no-repeat 15px 6px;
+    background: rgba(255, 255, 255, .2) url('../img/icon-cart.png') no-repeat 15px 6px;
 }
 
 .cart__link:hover
@@ -766,8 +770,8 @@ body > input[type='radio']
     background:    -moz-linear-gradient(top, #f26843 0%, #e74a35 100%);
     background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
     background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
-    box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
-    text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
+    box-shadow: 0 2px 2px rgba(172, 16, 0, .64);
+    text-shadow: 0 2px 5px rgba(160, 32, 11, .76);
 }
 
 .slide-btn:hover
@@ -804,7 +808,7 @@ body > input[type='radio']
 
 .slider-controls label:hover
 {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, .4);
 }
 
 .slider-controls label:active
@@ -924,7 +928,7 @@ body > input[type='radio']
     left: -1px;
 
     color: #fff;
-    text-shadow: rgba(49, 50, 53, 0.5) 0 1px;
+    text-shadow: rgba(49, 50, 53, .5) 0 1px;
 }
 
 .catalog-item__price::after
@@ -1120,7 +1124,7 @@ body > input[type='radio']
     margin-right: 6px;
     padding: 15px 10px 12px 13px;
 
-    border: 1px solid rgba(178, 178, 178, 0.52);
+    border: 1px solid rgba(178, 178, 178, .52);
     border-radius: 5px;
     outline: none;
 }
@@ -1152,12 +1156,12 @@ body > input[type='radio']
 
 .sub-form__field:hover
 {
-    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, .52);
 }
 
 .sub-form__field:focus
 {
-    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, .52);
 }
 
 .sub-form__field::-webkit-input-placeholder
@@ -1323,7 +1327,7 @@ body > input[type='radio']
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
-
+    display: none;
     position: absolute;
     top: 14px;
     left: 14px;
@@ -1335,7 +1339,7 @@ body > input[type='radio']
 {
     font-size: 11px;
     line-height: 13px;
-
+    display: block;
     position: absolute;
     top: -14px;
     left: 14px;
@@ -1350,7 +1354,7 @@ body > input[type='radio']
     margin-bottom: 20px;
     padding: 13px 40px 15px 13px;
 
-    border: 1px solid rgba(178, 178, 178, 0.52);
+    border: 1px solid rgba(178, 178, 178, .52);
     border-radius: 5px;
     outline: none;
 }
@@ -1358,13 +1362,13 @@ body > input[type='radio']
 .feedback-form__user-name:hover,
 .feedback-form__email:hover
 {
-    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, .52);
 }
 
 .feedback-form__user-name:focus,
 .feedback-form__email:focus
 {
-    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, .52);
 }
 
 .feedback-form textarea
@@ -1374,19 +1378,19 @@ body > input[type='radio']
     margin-bottom: 22px;
     padding: 5px 13px;
 
-    border: 1px solid rgba(178, 178, 178, 0.52);
+    border: 1px solid rgba(178, 178, 178, .52);
     border-radius: 5px;
     outline: none;
 }
 
 .feedback-form textarea:hover
 {
-    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(154, 154, 154, .52);
 }
 
 .feedback-form textarea:focus
 {
-    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, 0.52);
+    box-shadow: inset 0 0 0 2px rgba(46, 136, 228, .52);
 }
 
 textarea + label
@@ -1486,7 +1490,7 @@ textarea:focus + label
 
     content: '';
 
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .breadcrumbs__item:not(:last-child):hover .breadcrumbs__item-link
@@ -1496,7 +1500,7 @@ textarea:focus + label
 
 .breadcrumbs__item:hover:not(:last-child)::before
 {
-    background-color: rgba(255, 188, 158, 0.3);
+    background-color: rgba(255, 188, 158, .3);
 }
 
 .breadcrumbs__item:not(:last-child)::after
@@ -1590,7 +1594,7 @@ textarea:focus + label
 
     color: #fff;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .select
@@ -1665,7 +1669,7 @@ textarea:focus + label
     padding: 15px;
 
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .price-filter__scale
@@ -1675,7 +1679,7 @@ textarea:focus + label
 
     cursor: pointer;
 
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .price-filter__range
@@ -1699,7 +1703,7 @@ textarea:focus + label
 
     border-radius: 50%;
     background-color: #f8f7f4;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 }
 
 .price-filter__toggle:hover
@@ -1742,7 +1746,7 @@ textarea:focus + label
     padding: 10px 15px;
 
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .fat-content-filter__label
@@ -1817,7 +1821,7 @@ textarea:focus + label
     padding: 10px 20px 10px 17px;
 
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .filler-filter__label
@@ -1888,7 +1892,7 @@ textarea:focus + label
     border: none;
     border-radius: 30px;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
     box-shadow: 0 0 0 2px #fff;
 }
 
@@ -1915,7 +1919,7 @@ textarea:focus + label
 
 hr
 {
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, .3);
 }
 
 .paginator__item
@@ -1940,7 +1944,7 @@ hr
 
 .paginator__item:hover
 {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .paginator .current
@@ -1996,7 +2000,7 @@ hr
 
 .disabled:before
 {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, .2);
     border-top-color: transparent;
     border-right-color: transparent;
 }
@@ -2027,7 +2031,7 @@ hr
 
     vertical-align: top;
 
-    border: 3px solid rgba(255, 255, 255, 0.5);
+    border: 3px solid rgba(255, 255, 255, .5);
     border-radius: 19px;
     background: url('../img/icon-tw.png') no-repeat center;
 }
@@ -2145,7 +2149,7 @@ hr
 
     content: '';
 
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .useful-links a:hover::after
@@ -2198,7 +2202,7 @@ hr
 
     content: '';
 
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .copyrights-link:hover::after
@@ -2218,7 +2222,7 @@ hr
     width: 100%;
     height: 100%;
 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .modal-content-show
