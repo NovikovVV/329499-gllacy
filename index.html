@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Gllacy Shop</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+	<head>
+		<meta charset="utf-8">
+		<title>Gllacy Shop</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-    </head>
+	</head>
 	<body>
 		<input type="radio" id="btn-1" name="toggle" checked>
 		<input type="radio" id="btn-2" name="toggle">
@@ -52,16 +52,16 @@
 						<div class="search">
 							<a class="search__link" href="#">Поиск</a>
 							<form class="search-form">
-								<input class="search-form__field" type="text" name="search" id="searchField">
+								<input class="search-form__field" type="text" name="search" id="searchField" placeholder="Что ищем?" required>
 								<label for="searchField">Что ищем?</label>
 							</form>
 						</div>
 						<div class="login">
 							<a class="login__link"  href="#">Вход</a>
 							<form  class="login-form">
-								<input class="login-form__email" type="text" name="email" id="loginField">
+								<input class="login-form__email" type="text" name="email" id="loginField" placeholder="Электронная почта" required>
 								<label for="loginField">Электронная почта</label>
-								<input class="login-form__password" type="password" name="password" id="passwordField">
+								<input class="login-form__password" type="password" name="password" id="passwordField" placeholder="Пароль" required>
 								<label for="passwordField">Пароль</label>
 								<button class="btn" type="submit">Войти</button>
 								<a class="login-form__link" href="#">Забыли пароль?</a>
@@ -128,34 +128,37 @@
 						<div class="item__image">
 							<img class="item__image-content" src="img/catalog-item2.jpg" width="267" height="267" alt="Ice-Cream">
 						</div>
-						<span class="catalog-item__price">310</span><span class="catalog-item__weight">/кг</span>
+						<span class="catalog-item__price">310</span>
+						<span class="catalog-item__weight">/кг</span>
 						<p class="catalog-item__description">
 							Сливочное с апельсиновым
 							джемом и цитрусовой стружкой
 						</p>
-						<a class="btn  hide" href="#">Быстрый просмотр</a>
+						<a class="btn" href="#">Быстрый просмотр</a>
 					</article>
 					<article class="catalog-item  bestseller">
 						<div class="item__image">
 							<img class="item__image-content" src="img/catalog-item5.jpg" width="267" height="267" alt="Ice-Cream">
 						</div>
-						<span class="catalog-item__price">380</span><span class="catalog-item__weight">/кг</span>
+						<span class="catalog-item__price">380</span>
+						<span class="catalog-item__weight">/кг</span>
 						<p class="catalog-item__description">
 							Сливочно-кофейное с кусочками
 							шоколада
 						</p>
-						<a class="btn  hide" href="#">Быстрый просмотр</a>
+						<a class="btn" href="#">Быстрый просмотр</a>
 					</article>
 					<article class="catalog-item  bestseller">
 						<div class="item__image">
 							<img class="item__image-content" src="img/catalog-item8.jpg" width="267" height="267" alt="Ice-Cream">
 						</div>
-						<span class="catalog-item__price">355</span><span class="catalog-item__weight">/кг</span>
+						<span class="catalog-item__price">355</span>
+						<span class="catalog-item__weight">/кг</span>
 						<p class="catalog-item__description">
 							Сливочно-клубничное с
 							присыпкой из белого шоколада
 						</p>
-						<a class="btn  hide" href="#">Быстрый просмотр</a>
+						<a class="btn" href="#">Быстрый просмотр</a>
 					</article>
 					<article class="catalog-item  bestseller">
 						<div class="item__image">
@@ -166,7 +169,7 @@
 							Сливочное крем-брюле с
 							карамельной подливкой
 						</p>
-						<a class="btn  hide" href="#">Быстрый просмотр</a>
+						<a class="btn" href="#">Быстрый просмотр</a>
 					</article>
 					<section class="company-features  clearfix">
 						<h3 class="features__title">
@@ -214,7 +217,7 @@
 								и не слать всякой ненужной ерунды. Честно =)
 							</p>
 							<form class="sub-form" action="#" method="post">
-								<input class="sub-form__field" type="text" name="email" id="subFormEmail">
+								<input class="sub-form__field" type="text" name="email" id="subFormEmail" placeholder="Электронная почта" required>
 								<label for="subFormEmail">Электронная почта</label>
 								<button class="btn" type="submit">Отправить</button>
 							</form>
@@ -223,7 +226,7 @@
 				</main>
 			</div>
 			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6135748995991!2d30.320578416311676!3d59.93855408187615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fc9b0c6fd%3A0x5305c517be3d8ef2!2z0JLQvtC70YvQvdGB0LrQuNC5INC_0LXRgC4sIDgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1494404248707" width="1200" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6135748995991!2d30.320578416311676!3d59.93855408187615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fc9b0c6fd%3A0x5305c517be3d8ef2!2z0JLQvtC70YvQvdGB0LrQuNC5INC_0LXRgC4sIDgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1494404248707" allowfullscreen></iframe>
 				<div class="contacts">
 					<p class="adress">
 						Адрес главного офиса<br>
@@ -245,11 +248,11 @@
 						Мы обязательно вам ответим!
 					</p>
 					<form class="feedback-form  clearfix" action="#" method="post">
-						<input class="feedback-form__user-name" type="text" name="userName" id="userNameField" placeholder="Как вас зовут?">
+						<input class="feedback-form__user-name" type="text" name="userName" id="userNameField" placeholder="Как вас зовут?" required>
 						<label for="userNameField">Как вас зовут?</label>
-						<input class="feedback-form__email" type="text" name="email" id="feedbackFormEmail">
+						<input class="feedback-form__email" type="text" name="email" id="feedbackFormEmail" placeholder="Ваша почта для ответа?" required>
 						<label for="feedbackFormEmail">Ваша почта для ответа?</label>
-						<textarea id="textarea"></textarea>
+						<textarea id="textarea" placeholder="Напишите что нибудь..." required></textarea>
 						<label for="textarea">Напишите что нибудь...</label>
 						<button class="btn" type="submit">Отправить</button>
 					</form>
@@ -271,7 +274,9 @@
 						<a href="#">Экологические стандарты</a>
 					</section>
 					<section class="copyrights">
-						<a class="copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/footer-logo.png" width="108" height="38" alt="HTML Academy"></a>
+						<a class="copyright-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+							<img src="img/footer-logo.png" width="108" height="38" alt="HTML Academy">
+						</a>
 						<span>Сделано в <a class="copyrights-link" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &copy; 2017</span>
 					</section>
 				</footer>
