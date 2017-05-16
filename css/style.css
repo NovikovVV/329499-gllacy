@@ -2240,6 +2240,10 @@ body
     border-right-color: transparent;
 }
 
+:disabled {
+	opacity: 0.4;
+}
+
 .main-footer
 {
     min-width: 100%;
