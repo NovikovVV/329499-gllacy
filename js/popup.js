@@ -12,14 +12,13 @@ feedbackLink.addEventListener("click", function(event) {
 	feedbackForm.classList.add("modal-content-show");
 	overlay.classList.add("overlay-show");
 });
-			
 
 close.addEventListener("click", function(event) {
 	event.preventDefault();
 	feedbackForm.classList.remove("modal-content-show");
 	overlay.classList.remove("overlay-show");
 });
-			
+
 window.addEventListener("keydown", function(event) {
 	if (event.keyCode === 27) {
 		if (feedbackForm.classList.contains("modal-content-show")) {
@@ -28,7 +27,7 @@ window.addEventListener("keydown", function(event) {
 		}
 	}
 });
-			
+
 overlay.addEventListener("click", function(event){
 	feedbackForm.classList.remove("modal-content-show");
 	overlay.classList.remove("overlay-show");
