@@ -2,6 +2,10 @@ var feedbackLink = document.querySelector(".contacts .btn");
 var feedbackForm = document.querySelector(".feedback");
 var overlay = document.querySelector(".overlay");
 var close = document.querySelector(".modal-content-close");
+var html = document.documentElement;
+
+
+html.className = html.className.replace("js-off","js-on");
 
 feedbackLink.addEventListener("click", function(event) {
 	event.preventDefault();
