@@ -2044,7 +2044,6 @@ body
 .filler-filter__label
 {
     position: relative;
-	
 	display: inline-block;
 	vertical-align: top;
     margin-right: 16px;
@@ -2052,6 +2051,14 @@ body
     padding-left: 32px;
 
     cursor: pointer;
+}
+
+.filler-filter__label:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.filler-filter__label:hover::after {
+	border-width: 2px;
 }
 
 .filler-filter__label::after {
