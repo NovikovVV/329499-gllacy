@@ -24,83 +24,49 @@ html
     content: '';
 }
 
-@-webkit-keyframes bounce
-{
+
+@-webkit-keyframes bounce {
     0%
     {
-        transform: translateY(-2000px);
+        -webkit-transform: translateY(-2000px);
+                transform: translateY(-2000px);
     }
     70%
     {
-        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+                transform: translateY(30px);
     }
     90%
     {
-        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
     }
     100%
     {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
     }
 }
-
-@-moz-keyframes bounce
-{
+@keyframes bounce {
     0%
     {
-        transform: translateY(-2000px);
+        -webkit-transform: translateY(-2000px);
+                transform: translateY(-2000px);
     }
     70%
     {
-        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+                transform: translateY(30px);
     }
     90%
     {
-        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
     }
     100%
     {
-        transform: translateY(0);
-    }
-}
-
-@-o-keyframes bounce
-{
-    0%
-    {
-        transform: translateY(-2000px);
-    }
-    70%
-    {
-        transform: translateY(30px);
-    }
-    90%
-    {
-        transform: translateY(-10px);
-    }
-    100%
-    {
-        transform: translateY(0);
-    }
-}
-
-@keyframes bounce
-{
-    0%
-    {
-        transform: translateY(-2000px);
-    }
-    70%
-    {
-        transform: translateY(30px);
-    }
-    90%
-    {
-        transform: translateY(-10px);
-    }
-    100%
-    {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
     }
 }
 
@@ -1516,6 +1482,7 @@ body
 
 .js-off-map
 {
+	background: #cddfbe;
     position: absolute;
     right: 0;
     left: 0;
@@ -2234,6 +2201,7 @@ body
 
 .catalog-content
 {
+	width: 1146px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2250,9 +2218,9 @@ body
             align-items: baseline;
 }
 
-.horisontal-rule
+main
 {
-    border: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .paginator__item
